@@ -1,0 +1,13 @@
+package com.nibm.smartmedicine.dto.request.auth;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class UserUpdateRequest {
+    private String name;
+    private String mobileNumber;
+}
